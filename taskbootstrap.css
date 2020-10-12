@@ -1,0 +1,24 @@
+body{background-color: black !important;}
+vertical-menu {
+    width: 150px;
+    background-color: gray;
+  }
+  
+  .vertical-menu a  {
+    background-color: rgb(32, 28, 28);
+    color: #fff;
+    display: block;
+    padding: 30px;
+    text-decoration: none;
+    font-size: 20px;
+    list-style: none;
+  }
+  
+  .vertical-menu a:hover {
+    background-color: gray;
+  }
+  
+  .vertical-menu a.active {
+    background-color:black;
+    color: white;
+  }
